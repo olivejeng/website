@@ -27,13 +27,17 @@ h2{
     text-align: center;
     margin-top: 0px;
 }
-button{
-    
-        background-color: #8d8d8d;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        height: 100vh;
-      
-}
+button {
+    background-color: #3e6725;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 5vh;
+    border: .5px solid rgb(57, 220, 20);
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px;
+    box-shadow: 0 0 30px 0 rgb(73, 220, 20),
+                0 0 30px 0 rgb(20, 220, 23),
+                0 0 10px 0 rgb(40, 220, 20) inset;
+  }
