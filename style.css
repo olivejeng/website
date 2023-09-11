@@ -27,3 +27,13 @@ h2{
     text-align: center;
     margin-top: 0px;
 }
+button{
+    
+        background-color: #8d8d8d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 100vh;
+      
+}
