@@ -1,0 +1,17 @@
+a{
+    background-color: #47712d
+        margin: 0 auto;
+    height: 10vh;
+    width: 40vw;
+    border: 1px solid rgb(57, 220, 20);
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 0 0 30px 0 rgb(73, 220, 20),
+                0 0 30px 0 rgb(20, 220, 23),
+                0 0 10px 0 rgb(40, 220, 20) inset;
+  }
+  a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(25, 59, 29);
+  }
