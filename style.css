@@ -33,10 +33,10 @@ a{
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-    height: 10vh;
-    width: 18vw;
+    height: 3vh;
+    width: 10vw;
     border: 1px solid rgb(57, 220, 20);
-    border-radius: 50px;
+    border-radius: 5px;
     color: #fff;
     padding: 5px;
     box-shadow: 0 0 30px 0 rgb(73, 220, 20),
@@ -55,7 +55,7 @@ a{
 ul{
     list-style-type: none;
     margin: 0;
-    padding: ;
+    padding: 6;
     overflow: hidden;
     background-color: green
     position: fixed;
@@ -66,11 +66,11 @@ li{
     float: right;
     border-right: 1px solid green
 }
-li a{
+li a {
     display: block;
     color:#fff
     text-align: center;
-    padding: 14px 16px;
+    padding: 6px 150px;
     text-decoration: none;
 }
 
