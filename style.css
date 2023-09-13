@@ -104,3 +104,39 @@ li a:hover{
     background-color: #3e6725;
     color: white;
 }
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    display: inline;
+    margin-right: 0px;
+    width: 50px;
+    padding: 2px;
+    font-size: 9px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: #912;
+    background-color: #DDD;
+    border: 1px solid black;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+}
+footer a strong {
+    font-weight: bold;
+    color: #FFF;
+    background-color: #912;
+    padding-left: 5px;
+    margin-right: 2px;
+}
+footer a:hover {
+    color: #FFF;
+    background-color: #912;
+}
+footer a:hover strong {
+    color: #912;
+    background-color: #DDD;
+}  
