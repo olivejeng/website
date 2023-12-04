@@ -57,7 +57,7 @@ ul{
     margin: 0;
     padding: 6;
     overflow: hidden;
-    background-color: green
+    background-color: green;
     position: fixed;
     top: 0;
     width: 100%;
@@ -68,7 +68,7 @@ li{
 }
 li a {
     display: block;
-    color:#fff
+    color:#fff;
     text-align: center;
     padding: 6px 150px;
     text-decoration: none;
@@ -82,7 +82,7 @@ li a:hover{
     background-color: green
 }
 .topnav{
-    background-color:#98bf7f
+    background-color:#98bf7f;
     overflow: hidden;
 }
 
