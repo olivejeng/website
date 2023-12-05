@@ -24,10 +24,24 @@
     </head>
     <body>
      <header>Ninety-Nine Cans of Sprite</header>
+     <img class="floatright" id="img-rotate" src="Frogbutterfly.jpg" wdth="300" height="300" alt="Frogbutterfly">
      <style>
         header{
             font-size: xx-large;
             color: green;
+        }
+        img{
+        position:fixed;
+        z-index:1000;
+        height:150px;
+        width:240px;
+        right:0;
+        }
+        #img-rotate{
+            position: relative;
+            -ms-transform: rotate(345deg);
+            -webkit-transform: rotate(345deg);
+            transform: rotate(345deg);
         }
      </style>
      <main id="song">
