@@ -7,6 +7,7 @@
             body {
               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
               text-align: center;
+              font-weight: 500;
             }
             </style>
         <script>
@@ -22,23 +23,17 @@
             window.onload = init;
             </script>
     </head>
-    <body>
+    <body style="background-color: #9EA93F;">
      <header>Ninety-Nine Cans of Sprite</header>
-     <img class="floatright" id="img-rotate" src="Frogbutterfly.jpg" wdth="300" height="300" alt="Frogbutterfly">
+     <img style="margin-right: 100px; margin-top: 100px;position:fixed; align-items: right; right: 0;"floatright" id="img-rotate" src="Frogbutterfly.jpg" width="400" height="245" alt="Frogbutterfly">
+     <img style="margin-left: 50px; margin-top: 100px;position:fixed; align-items: left; left: 0;"floatright" id="img-rotate" src="Sprite.png" width="500" height="420" alt="Sprite">
      <style>
         header{
             font-size: xx-large;
+            font-weight:900;
             color: green;
         }
-        img{
-        position:fixed;
-        z-index:1000;
-        height:150px;
-        width:240px;
-        right:0;
-        }
         #img-rotate{
-            position: relative;
             -ms-transform: rotate(345deg);
             -webkit-transform: rotate(345deg);
             transform: rotate(345deg);
