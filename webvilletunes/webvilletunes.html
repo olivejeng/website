@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Webville Tunes</title>
+<title> Webville Tunes </title>
 <script src="setlinks.js"></script>
 <script src="playlist.js"></script>
 <script>
@@ -15,15 +15,27 @@ window.onload = init;
 </script>
 
 </head>
-<body>
-<h1>Webville Tunes</h1>
+<body style="background-color:lightgreen;">
+<h1 style="color:green";>Webville Tunes</h1>
 
 <main>
 <form>
   <input type="text" id="songTextInput" size="40" placeholder="Song name">
   <input type="button" id="addButton" value="Add Song">
 </form>
-
+<script>
+var button = document.getElementById("addButton"); button.onclick = handleButtonClick; window.onload = init;
+function init() {
+var button = document.getElementById("addButton"); button.onclick = handleButtonClick;
+}
+function handleButtonClick() {
+var textInput = document.getElementById("songTextInput");
+var songName = textInput.value;
+var li = document.createElement("li");
+li.innerHTML = songName;
+var ul = document.getElementById("playlist"); 
+ul.appendChild(li);}
+</script>
 <ul id="playlist">
 </ul>
 </main>
