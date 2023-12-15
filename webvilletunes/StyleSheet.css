@@ -15,7 +15,7 @@ script {
     align-items: center;
     position: relative;
   }
- img{
-    width: 300px;
+  img{
+    width: 600px;
     height:auto;
  }
