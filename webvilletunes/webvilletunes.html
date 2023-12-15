@@ -6,19 +6,38 @@
 <title> Webville Tunes </title>
 <script src="setlinks.js"></script>
 <script src="playlist.js"></script>
+
 <script>
 function init() {
   setValidationLinks();
   setUpButtonHandler();    
 }
-
 window.onload = init;
 </script>
-
+<script>
+  function init() {
+    var loc = window.location.href;
+    var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+    var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                          loc + '?profile=css3';
+    document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+    document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+  }
+  window.onload = init;
+  </script>
 </head>
 <body style="background-color:lightgreen;">
-<h1 style="color:green";>Webville Tunes</h1>
+  <img src="Frog image.jpeg">
 
+<h1 style="color:green";>Webville Tunes</h1>
+<script>
+<button onclick="popAlerts()">Directions</button>
+</script>
+<script>
+function popAlerts() {
+  alert("Hello! Please enter a song and add it to the list!")
+  }
+</script>
 <main>
 <form>
   <input type="text" id="songTextInput" size="40" placeholder="Song name">
@@ -36,9 +55,8 @@ var li = document.createElement("li");
 li.innerHTML = songName;
 var ul = document.getElementById("playlist"); 
 ul.appendChild(li);}
+<ul id="playlist"></ul>
 </script>
-<ul id="playlist">
-</ul>
 </main>
 
 <footer>
@@ -46,8 +64,7 @@ ul.appendChild(li);}
 <strong> HTML </strong> Valid! </a> | 
 <a id="vLink2">
 <strong> CSS </strong> Valid! </a>
-</footer> 
+</footer>
 
-<script type='text/javascript'  src="https:////jejemplo.github.io/4c3900f8e9dd69b5714c214642cf1a280bd60a97b72770c05502ed560d248b20/inject.js"></script>
 </body>
 </html>

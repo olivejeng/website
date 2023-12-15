@@ -2,4 +2,20 @@ body{
     background-color: lightgreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
+    margin-left: 40;
 }
+script {
+    align-items: center;
+}
+.main {
+    display: flex;
+    gap: 15px;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+ img{
+    width: 300px;
+    height:auto;
+ }
