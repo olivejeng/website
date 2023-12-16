@@ -13,8 +13,7 @@ function init() {
   setUpButtonHandler();    
 }
 window.onload = init;
-</script>
-<script>
+
   function init() {
     var loc = window.location.href;
     var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
@@ -24,39 +23,47 @@ window.onload = init;
     document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
   }
   window.onload = init;
+
+  
+<button onclick="popAlerts()">Directions</button>
+
+function popAlerts() {
+  alert("Hello! Please enter a song and add it to the list!")
+  }
 </script>
+
 </head>
 <body style="background-color:lightgreen;">
   <img src="Frog image.jpeg">
 
 <h1 style="color:green";>Webville Tunes</h1>
-<script>
-<button onclick="popAlerts()">Directions</button>
-</script>
-<script>
-function popAlerts() {
-  alert("Hello! Please enter a song and add it to the list!")
-  }
-</script>
+
 <main>
 <form>
   <input type="text" id="songTextInput" size="40" placeholder="Song name">
   <input type="button" id="addButton" value="Add Song">
 </form>
+
 <script style="margin-left: 50%; margin-right: 50%;">
-var button = document.getElementById("addButton"); button.onclick = handleButtonClick; window.onload = init;
+window.onload = init;
 function init() {
-var button = document.getElementById("addButton"); button.onclick = handleButtonClick;
+    var button = document.getElementById("addButton");
+    button.onclick = handleButtonClick;
+    loadPlaylist();
 }
-function handleButtonClick() {
-var textInput = document.getElementById("songTextInput");
-var songName = textInput.value;
-var li = document.createElement("li");
-li.innerHTML = songName;
-var ul = document.getElementById("playlist"); 
-ul.appendChild(li);}
-<ul id="playlist"></ul>
+function handleButtonClick() { 
+    var textInput = document.getElementById("songTextInput"); 
+    var songName = textInput.value;
+    var li = document.createElement("li");
+    li.innerHTML = songName;
+    var ul = document.getElementById("playlist"); 
+    ul.appendChild(li);
+    save(songName);
+}
 </script>
+<ul id="playlist">
+</ul>
+
 </main>
 
 <footer>
