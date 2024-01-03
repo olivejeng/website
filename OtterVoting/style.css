@@ -1,0 +1,16 @@
+h3{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image1{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+body{
+    margin-left: 30px;
+    background-size: cover;
+    font-size: medium;
+    background-image: url("bubbles.png");
+}
+
