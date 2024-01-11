@@ -27,22 +27,6 @@ h2{
     text-align: center;
     margin-top: 0px;
 }
-a{
-    background-color: #3e6725;
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    height: 3vh;
-    width: 10vw;
-    border: 1px solid rgb(57, 220, 20);
-    border-radius: 5px;
-    color: #fff;
-    padding: 5px;
-    box-shadow: 0 0 30px 0 rgb(73, 220, 20),
-                0 0 30px 0 rgb(20, 220, 23),
-                0 0 10px 0 rgb(40, 220, 20) inset;
-  }
   a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(255, 255, 255);
@@ -140,3 +124,260 @@ footer a:hover strong {
     color: #912;
     background-color: #DDD;
 }  
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url('ramenbowl.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom -60px;
+    text-align: center;
+}
+
+#assign {
+    background-image: url('htmlbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 10px;
+}
+
+#about {
+    background-image: url('classesback.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
+h1 {
+    text-align: center;
+    padding: 200px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Franklin';
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+    text-align: center;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: -250px;
+    font-size: 20px;
+    font-family: 'Thasadith';
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'Thasadith';
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Thasadith';
+    letter-spacing: 2px;
+}
+
+
+.square-button {
+    display: inline-block;
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+
+}
+
+.button1 {
+    position: absolute;
+    top: 800px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
+
+.button2 {
+    position: absolute;
+    top: 800px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
+
+.button3 {
+    position: absolute;
+    top: 800px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
+
+.button4 {
+    position: absolute;
+    top: 1000px;
+    right: 34%;
+    transform: translateX(20%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
+
+.button5 {
+    position: absolute;
+    top: 1000px;
+    right: 58%;
+    transform: translateX(40%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+    
+}
+
+.button6 {
+    position: absolute;
+    top: 1000px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+    
+}
+
+.button7 {
+    position: absolute;
+    top: 1000px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+    
+}
+
+.button8 {
+    position: absolute;
+    top: 1000px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button9 {
+    position: absolute;
+    top: 1200px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Thasadith';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+
+    
+}
+#title {
+    position: absolute;
+    top: 240px;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Franklin';
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px #333;
+
+
+    border: 2px solid #ffffff;
+    padding: 40px;
+    width: 900px;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
