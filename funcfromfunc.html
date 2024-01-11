@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <h1>Welcome to the Alaska</h1>
+        <p>Take this quiz to learn about different alaskan animals!</p>
+        
+    </head>
+    <body>
+        <script>
+            var numCorrect = 0;
+            function takeTest() {
+                var response = "";
+                var points = 0;
+                var q1 = "what color is polar bear skin?";
+                var a1 = "black";
+                var q2 = "what do sea otters wrap themselves in to stop them from floating away?";
+                var a2 = "kelp";
+                var q3 = "can moose swim? (yes/no)";
+                var a3 = "yes";
+                response = prompt(q1, "");
+                if (response) points = runningTotal(response.toUpperCase() == a1 ? 1 : 0);
+                alert(points);
+                response = prompt(q2, "");
+                if (response) points = runningTotal(response == a2 ? 1 : 0);
+                alert(points);
+                response = prompt(q3, "");
+                if (response) points = runningTotal(response.toUpperCase() == a3 ? 1 : 0);
+                alert("You answered a total of " + points + " correctly.");
+                numCorrect = 0;
+                points = 0;
+            }
+            function runningTotal(i) {
+                numCorrect += i;
+                return numCorrect;
+            }
+        </script>
+        <form>
+            <input type="button" value="Take Quiz" onclick="takeTest();" />
+        </form>
+    </body>
+</html>
