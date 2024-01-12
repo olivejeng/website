@@ -19,8 +19,13 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
-    margin-top: 10px;
-}
+    margin-top: 30px;
+        font-size: 80px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px #333;
+        margin-right: 400px;
+    
+    }
 h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -104,7 +109,6 @@ footer a {
     text-align: center;
     color: #912;
     background-color: #DDD;
-    border: 1px solid black;
     vertical-align: middle;
     white-space: nowrap;
     cursor: pointer;
@@ -125,67 +129,6 @@ footer a:hover strong {
     background-color: #DDD;
 }  
 
-
-
-
-
-
-body {
-    margin: 0;
-    padding: 0;
-
-    background-image: url('ramenbowl.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 0 bottom -60px;
-    text-align: center;
-}
-
-#assign {
-    background-image: url('htmlbackground.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 0 bottom 10px;
-}
-
-#about {
-    background-image: url('classesback.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 0 bottom 60px;
-}
-
-h1 {
-    text-align: center;
-    padding: 200px;
-    font-size: 80px;
-    color: rgb(255, 255, 255);
-    font-family: 'Libre Franklin';
-    letter-spacing: 7px;
-    text-shadow: 2px 2px 4px #333;
-    opacity: 0; 
-    animation: fadeIn 1s ease forwards;
-    text-align: center;
-
-}
-
-h2 {
-    color: white;
-    text-align: center;
-    margin-top: -250px;
-    font-size: 20px;
-    font-family: 'Thasadith';
-    letter-spacing: 4px;
-    text-shadow: 2px 2px 4px #333;
-    opacity: 0; 
-    animation: fadeIn 1s ease forwards;
-}
 
 nav {
     background-color: #f2f2f2;
@@ -226,134 +169,6 @@ footer {
     letter-spacing: 2px;
 }
 
-
-.square-button {
-    display: inline-block;
-    width: 230px;
-    height: 100px;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    line-height: 100px;
-    text-decoration: none;
-
-}
-
-.button1 {
-    position: absolute;
-    top: 800px;
-    right: 25%;
-    transform: translateX(25%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-
-}
-
-.button2 {
-    position: absolute;
-    top: 800px;
-    right: 50%;
-    transform: translateX(50%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-
-}
-
-.button3 {
-    position: absolute;
-    top: 800px;
-    right: 75%;
-    transform: translateX(75%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-
-}
-
-.button4 {
-    position: absolute;
-    top: 1000px;
-    right: 34%;
-    transform: translateX(20%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-
-}
-
-.button5 {
-    position: absolute;
-    top: 1000px;
-    right: 58%;
-    transform: translateX(40%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-    
-}
-
-.button6 {
-    position: absolute;
-    top: 1000px;
-    right: 25%;
-    transform: translateX(25%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-    
-}
-
-.button7 {
-    position: absolute;
-    top: 1000px;
-    right: 50%;
-    transform: translateX(50%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-    
-}
-
-.button8 {
-    position: absolute;
-    top: 1000px;
-    right: 75%;
-    transform: translateX(75%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-
-    
-}
-
-.button9 {
-    position: absolute;
-    top: 1200px;
-    right: 50%;
-    transform: translateX(50%);
-    font-family: 'Thasadith';
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-align: center;
-
-    
-}
 #title {
     position: absolute;
     top: 240px;
@@ -380,4 +195,10 @@ footer {
     to {
         opacity: 1;
     }
+}
+
+button {
+    border-width: 5px;
+    border-color: #3e6725;
+    border-radius: 40px;
 }
