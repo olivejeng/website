@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<meta charset="utf-8">
+<title>Assignments</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+    </script>
+
+</head>
+<body id = 'assign'>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="links.html">WEB DESIGN</a></li>
+            <li><a href="photography.html">PHOTOGRAPHY</a></li>
+        </ul>
+    </nav>
+
+<h1>WEB DESIGN</h1>
+
+    <a href="HeadFirstLounge/About/index.html" class="square-button button1" >Head First Lounge</a>
+    <a href="HeadFirstLounge/starbuzzcoffee.html" class="square-button button2" >Starbuzz</a> 
+    <a href="webville.html" class="square-button button3" >99 Cans</a> 
+    <a href="tunespractice.html" class="square-button button4" >Webville Tunes</a> 
+    <a href="WebvilleCinema/index.html" class="square-button button5" >Webville Cinema</a> 
+    <a href="HeadFirstLounge/journal.html" class="square-button button6">Journal</a>
+    <a href="OtterVoting/index.html" class="square-button button7">Optional 6.1</a>
+    <a href="radio.html" class="square-button button8">Optional 6.2</a>
+    <a href="numbers.html" class="square-button button9">Optional 6.3</a>
+    <a href="funcfromfunc.html" class="square-button button10">6-1 & 6-3</a>
+    <a href="usingfunctions.html" class="square-button button11">6-2</a>
+    <a href="funcfromfunc2.html" class="square-button button12">6-4</a>
+
+
+    <div style="height: 900px;"></div>
+
+    <video autoplay loop muted plays-inline>
+        <source src="penguin.mp4" type="video/mp4">
+    </video>
+    
+
+<footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> 
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>

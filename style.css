@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom -60px;
+}
+
 video{
     width: 100vw;
     height: 100vh;
@@ -15,118 +26,51 @@ video{
         height: auto;
     }
 }
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+
+#assign {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 10px;
+}
+
+#about {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0 bottom 60px;
+}
+
+h1 {
     text-align: center;
-    margin-top: 30px;
-        font-size: 80px;
-        color: rgb(255, 255, 255);
-        text-shadow: 2px 2px 4px #333;
-        margin-right: 400px;
-    
-    }
-  a{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 120px;
+    font-size: 80px;
     color: rgb(255, 255, 255);
-  }
-  p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#fff;
-    text-align: center;
-  }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 6;
-    overflow: hidden;
-    background-color: green;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-li{
-    float: right;
-    border-right: 1px solid green
-}
-li a {
-    display: block;
-    color:#fff;
-    text-align: center;
-    padding: 6px 150px;
-    text-decoration: none;
+    font-family: 'Libre Franklin';
+    letter-spacing: 7px;
+    text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+
 }
 
-li a:hover{
-    background-color:green
-}
-
-.active{
-    background-color: green
-}
-.topnav{
-    background-color:#98bf7f;
-    overflow: hidden;
-}
-
-.topnav a{
-    float: left;
-    color: rgb(173, 245, 131);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover{
-    background-color: #3e6725;
-    color:#fff
-}
-
-.topnav a.active{
-    background-color: #3e6725;
+h2 {
     color: white;
-}
-
-footer {
     text-align: center;
+    margin-top: -250px;
+    font-size: 20px;
+    font-family: 'Thasadith';
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px #333;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
 }
-
-footer a {
-    display: inline;
-    margin-right: 0px;
-    width: 50px;
-    padding: 2px;
-    font-size: 9px;
-    font-family: Verdana, Geneva, sans-serif;
-    text-decoration: none;
-    text-align: center;
-    color: #912;
-    background-color: #DDD;
-    vertical-align: middle;
-    white-space: nowrap;
-    cursor: pointer;
-}
-footer a strong {
-    font-weight: bold;
-    color: #FFF;
-    background-color: #912;
-    padding-left: 5px;
-    margin-right: 2px;
-}
-footer a:hover {
-    color: #FFF;
-    background-color: #912;
-}
-footer a:hover strong {
-    color: #912;
-    background-color: #DDD;
-}  
-
 
 nav {
     background-color: #f2f2f2;
-    padding: 30px;
+    padding: 20px;
     letter-spacing: 2px;
     text-align: left;
     font-family: 'Thasadith';
@@ -155,12 +99,170 @@ footer {
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
     font-family: 'Thasadith';
     letter-spacing: 2px;
+}
+
+
+.square-button {
+    border-radius: 50px;
+    display: inline-block;
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+
+}
+
+.button1 {
+    position: absolute;
+    top: 500px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button2 {
+    position: absolute;
+    top: 500px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button3 {
+    position: absolute;
+    top: 500px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button4 {
+    position: absolute;
+    top: 700px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+
+}
+
+.button5 {
+    position: absolute;
+    top: 700px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button6 {
+    position: absolute;
+    top: 700px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button7 {
+    position: absolute;
+    top: 900px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button8 {
+    position: absolute;
+    top: 900px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button9 {
+    position: absolute;
+    top: 900px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button10 {
+    position: absolute;
+    top: 1100px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button11 {
+    position: absolute;
+    top: 1100px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
+}
+
+.button12 {
+    position: absolute;
+    top: 1100px;
+    right: 75%;
+    transform: translateX(75%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    
 }
 
 #title {
@@ -174,12 +276,10 @@ footer {
     font-family: 'Libre Franklin';
     letter-spacing: 7px;
     text-shadow: 2px 2px 4px #333;
+    padding: 10px;
 
-
-    border: 2px solid #ffffff;
-    padding: 40px;
-    width: 900px;
-
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
 }
 
 @keyframes fadeIn {
@@ -191,8 +291,7 @@ footer {
     }
 }
 
-button {
-    border-width: 5px;
-    border-color: #3e6725;
-    border-radius: 40px;
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
 }
