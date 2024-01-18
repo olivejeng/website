@@ -1,0 +1,11 @@
+body {
+    background-color: #9CAFB7;
+}
+
+@font-face {
+    font-family: 'Sobiscuit';
+    src: url(fonts/Sobiscuit.woff) format('woff');
+  }
+h1 {
+    font-family: 'Sobiscuit';
+}
