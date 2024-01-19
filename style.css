@@ -322,3 +322,81 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: brown;
 }
+
+
+.image2 {
+  position: relative;
+  width: 500px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: absolute;
+  top: 300px;
+  right: 84%;
+  transform: translateX(75%);
+}
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .image2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .image2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #a89886;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .image {
+    position: relative;
+    width: 500px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+    top: 300px;
+    right: 25%;
+    transform: translateX(25%);
+  }
+   
+  .image:hover .image {
+    opacity: 0.3;
+  }
+  
+  .image:hover .middle {
+    opacity: 1;
+  }
+
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 355px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
