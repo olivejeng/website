@@ -45,14 +45,15 @@ video{
 
 h1 {
     text-align: center;
-    padding: 120px;
+    padding: 140px;
     font-size: 80px;
+    margin-top: 50px;
     color: rgb(255, 255, 255);
     font-family: 'Libre Franklin';
     letter-spacing: 7px;
     text-shadow: 2px 2px 4px #333;
     opacity: 0; 
-    animation: fadeIn 1s ease forwards;
+    animation: fadeIn .5s ease forwards;
 
 }
 
@@ -150,7 +151,7 @@ a:link {
 
 .button1 {
     position: absolute;
-    top: 500px;
+    top: 600px;
     right: 25%;
     transform: translateX(25%);
     font-family: 'Optima';
@@ -162,7 +163,7 @@ a:link {
 
 .button2 {
     position: absolute;
-    top: 500px;
+    top: 600px;
     right: 50%;
     transform: translateX(50%);
     font-family: 'Optima';
@@ -174,7 +175,7 @@ a:link {
 
 .button3 {
     position: absolute;
-    top: 500px;
+    top: 600px;
     right: 75%;
     transform: translateX(75%);
     font-family: 'Optima';
@@ -186,7 +187,7 @@ a:link {
 
 .button4 {
     position: absolute;
-    top: 700px;
+    top: 800px;
     right: 25%;
     transform: translateX(25%);
     font-family: 'Optima';
@@ -198,7 +199,7 @@ a:link {
 
 .button5 {
     position: absolute;
-    top: 700px;
+    top: 800px;
     right: 50%;
     transform: translateX(50%);
     font-family: 'Optima';
@@ -210,7 +211,7 @@ a:link {
 
 .button6 {
     position: absolute;
-    top: 700px;
+    top: 800px;
     right: 75%;
     transform: translateX(75%);
     font-family: 'Optima';
@@ -222,7 +223,7 @@ a:link {
 
 .button7 {
     position: absolute;
-    top: 900px;
+    top: 1000px;
     right: 25%;
     transform: translateX(25%);
     font-family: 'Optima';
@@ -234,7 +235,7 @@ a:link {
 
 .button8 {
     position: absolute;
-    top: 900px;
+    top: 1000px;
     right: 50%;
     transform: translateX(50%);
     font-family: 'Optima';
@@ -246,7 +247,7 @@ a:link {
 
 .button9 {
     position: absolute;
-    top: 900px;
+    top: 1000px;
     right: 75%;
     transform: translateX(75%);
     font-family: 'Optima';
@@ -258,7 +259,7 @@ a:link {
 
 .button10 {
     position: absolute;
-    top: 1100px;
+    top: 1200px;
     right: 25%;
     transform: translateX(25%);
     font-family: 'Optima';
@@ -270,7 +271,7 @@ a:link {
 
 .button11 {
     position: absolute;
-    top: 1100px;
+    top: 1200px;
     right: 50%;
     transform: translateX(50%);
     font-family: 'Optima';
@@ -282,7 +283,7 @@ a:link {
 
 .button12 {
     position: absolute;
-    top: 1100px;
+    top: 1200px;
     right: 75%;
     transform: translateX(75%);
     font-family: 'Optima';
@@ -413,4 +414,36 @@ img {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+button{
+position: relative;
+    width: 200px;
+    font-family: 'Optima';
+    margin-top: 500px;
+    margin-left: 100px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    color: #574b38;
+    border: 2px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+p{
+    background-color: #d7d7d7;
+    width: 400px;
+    font-family: 'Optima';
+    margin-top: -100px;
+    margin-left: 500px;
+    padding: 40px;
+    border-radius: 25px;
+    color: #574b38;
+    border: 2px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
 }
