@@ -289,6 +289,16 @@ a:link {
     font-family: 'Optima';
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+.button13 {
+        position: absolute;
+        top: 1400px;
+        right: 75%;
+        transform: translateX(75%);
+        font-family: 'Optima';
+        font-size: 20px;
+        letter-spacing: 2px;
 
     
 }
