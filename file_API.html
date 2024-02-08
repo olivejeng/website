@@ -3,9 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <title>HTML5 File API Example</title>
+        <style>
+            body{
+                background-color: darkslategray;
+                font-family: 'Optima';
+                color:antiquewhite;
+                font-size: xx-large;
+                margin-left: 15%;
+            }
+        </style>
     </head>
     <body>
-        <p>Select two files: <input type="file" id="files" name="files[]" multiple /></p>
+        <p>Select two files! <input type="file" id="files" name="files[]" multiple /></p>
         <output id="list"></output>
         <script>
             function handleFileSelect(e) {
