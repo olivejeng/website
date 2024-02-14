@@ -331,6 +331,26 @@ a:link {
     letter-spacing: 2px;
 }
 
+.button17 {
+    position: absolute;
+    top: 1600px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.button18 {
+    position: absolute;
+    top: 1600px;
+    right: 25%;
+    transform: translateX(25%);
+    font-family: 'Optima';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
 #title {
     position: absolute;
     top: 240px;
