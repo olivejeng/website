@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<style>
+    body { 
+            background-image:url('confetti.gif'); 
+            background-repeat:repeat; 
+        }
+</style>
+<meta charset="utf-8">
+<title>ALEXIS'S BDAY</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+    </script>
+
+</head>
+<body id = 'assign'>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="links.html">WEB DESIGN</a></li>
+            <li><a href="photography.html">PHOTOGRAPHY</a></li>
+            <li><a href="animalsci.html">ANIMAL SCIENCE</a></li>
+            <li><a href="lexbday.html">BDAY</a></li>
+        </ul>
+    </nav>
+
+<h1 style="color: rgb(28, 68, 86);">HAPPY BDAY ALEXIS</h1>
+
+<div id="button">
+    <form name="myForm">
+        <input id="button1" type="button" value="Click Me!" onclick="takeTest();" />
+    </form>
+</div>
+
+    <script>
+
+    function myFunction() {
+        console.log("The HTML page has loaded.");
+    }
+
+        var numCorrect = 0;
+        function takeTest() {
+            var response = "";
+            var points = 0;
+            var q1 = "If you are alexis, what is my name in your contacts?";
+            var a1 = "PETA MANAGER";
+            response = prompt(q1, "");
+            if (response) points = runningTotal(response.toUpperCase() == a1 ? 1 : 0);
+            alert(points);
+            if (points == 1) {
+                alert('Because you answered correctly, im going to assume you are alexis! happy birthday <3')
+                window.location = 'lettertolex.html'
+            }
+            if (points != 1) {
+                alert('sorry you got it wrong :( If you are alexis try again! If you arent alexis, stop trying :)')
+            }
+            numCorrect = 0;
+            points = 0;
+        }
+        function runningTotal(i) {
+            numCorrect += i;
+            return numCorrect;
+
+        }
+        
+    </script>    
+
+    <div style="height: 900px;"></div>
+
+    <img>
+        <source src="confetti.gif">
+</img>
+    
+
+<footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> 
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>
