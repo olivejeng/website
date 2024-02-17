@@ -62,8 +62,14 @@ body::after{
 .container .card .content{
     padding: 20px;
     text-align: center;
-    transform: translateY(1px);
-    transition: 1s;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 .container .card .content h2{
@@ -83,6 +89,8 @@ body::after{
 
 .container .card .content p{
     font-size: 1em;
+    margin-left: 30px;
+    margin-right: 30px;
     color: #fff;
     font-weight: 300;
 }
