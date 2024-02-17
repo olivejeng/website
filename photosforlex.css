@@ -69,7 +69,7 @@ body {
 }
 
 .description p {
-    color: #b0b0ba;
+    color: #fcf4de;
     padding-top: 5px;
 }
 
@@ -90,15 +90,20 @@ input:checked + label .description {
     transform: translateY(0) !important;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
 .card[for="c1"] {
-    background-image: url('Photographyimages/gagejump.JPG');
+    background-image: url('buspt2.jpeg');
 }
 .card[for="c2"] {
-    background-image: url('Photographyimages/gagejump.JPG');
+    background-image: url('ROSEMARY.jpeg');
 }
 .card[for="c3"] {
-    background-image: url('Photographyimages/gagejump.JPG');
+    background-image: url('Heart.jpeg');
 }
 .card[for="c4"] {
-    background-image: url('Photographyimages/gagejump.JPG');
+    background-image: url('CUTEROSEMARY.jpeg');
 }
